@@ -1,16 +1,21 @@
 {
-  "name": "api-2-strapi-v-1",
+  "name": "api-2-strapi-v2",
   "private": true,
   "version": "0.1.0",
   "description": "A Strapi application",
   "scripts": {
+    "prod": "strapi start",
+    "dev-pg": "strapi develop",
     "develop": "strapi develop",
-    "start": "strapi start",
+    "start": "strapi develop",
     "build": "strapi build",
     "strapi": "strapi"
   },
   "devDependencies": {},
   "dependencies": {
+    "knex": "<0.20.0",
+    "pg": "^8.5.1",
+    "pg-connection-string": "^2.5.0",
     "@strapi/strapi": "4.0.4",
     "@strapi/plugin-users-permissions": "4.0.4",
     "@strapi/plugin-i18n": "4.0.4",
