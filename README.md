@@ -18,12 +18,12 @@ npm run develop
 # or
 yarn develop
 ```
-### Local DB
+### Local and remote DB
 
 By defalut SQLITE is used.
-If you want to use PG add startup script what use with PG connection string (remember to end it with &&):
+If you want to use PG add connection string to `.env` file (create it in project root if non existing):
 ```   
-    "dev-pg": "set DATABASE_URL=connection_string_form_heroku_database_settings&& strapi develop",
+    DATABASE_URL=connection_string_form_heroku_database_settings&& strapi develop"
 ```
 
 ### `start`
