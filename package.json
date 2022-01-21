@@ -1,7 +1,7 @@
 {
   "name": "api-2-strapi-v2",
   "private": true,
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "A Strapi application",
   "scripts": {
     "prod": "strapi start",
@@ -25,7 +25,8 @@
     "name": "A Strapi developer"
   },
   "strapi": {
-    "uuid": "b70cbf63-a4db-4daa-8c2f-cff72894f7a4"
+    "uuid": "b70cbf63-a4db-4daa-8c2f-cff72894f7a4",
+    "strapi-version": "4.0.4"
   },
   "engines": {
     "node": ">=12.x.x <=16.x.x",
